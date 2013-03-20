@@ -1,7 +1,7 @@
 <?php
 /*
  Plugin Name: Gist Embed
- Plugin URI: http://flightlessflyer.pinguinotech.com/github-wordpress-plugin
+ Plugin URI: https://github.com/ThomasHambach/gist-embed-wordpress
  Description: Embeds GIST into your pages, based on jQuery script by Blair Vanderhoof
  Version: 0.1
  Author: Thomas Hambach
