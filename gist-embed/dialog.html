@@ -1,0 +1,23 @@
+<div style="display:none">
+    <form id="gist-embed-form">
+    <div id="gist-embed-dialog">
+        <div id="link-options">
+            <p class="howto">Enter the URL to your GIST</p>
+            <div>
+                <label><span>URL</span><input id="gist-url-field" type="text" placeholder="https://gist.github.com/JohnDoe/101010"></label>
+            </div>
+            <div>
+                <label><span>File</span><input id="gist-file-field" type="text" placeholder="script.js"></label>
+            </div>
+            <div>
+                <label><span>Lines</span><input id="gist-line-field" type="text"></label>
+            </div>
+        </div>
+    </div>
+    <div class="submitbox">
+        <div id="gist-embed-update">
+            <input type="submit" value="<?php esc_attr_e( 'Add Gist' ); ?>" class="button-primary" id="gist-embed-submit">
+        </div>
+    </div>
+    </form>
+</div>

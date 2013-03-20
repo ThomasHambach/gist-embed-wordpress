@@ -1,0 +1,190 @@
+
+#gist-embed-form {
+    background-color: #F5F5F5;
+    line-height: 1.4em;
+    font-size: 12px;
+}
+
+#gist-embed-form ol,
+#gist-embed-form ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gist-embed-form input[type="text"] {
+    -webkit-box-sizing: border-box;
+}
+
+#gist-embed-form input[type="text"],
+#gist-embed-form textarea {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 1px;
+    padding: 3px;
+}
+
+#gist-embed-form #link-options {
+    padding: 10px 0 14px;
+    border-bottom: 1px solid #dfdfdf;
+    margin: 0 6px 14px;
+}
+
+#gist-embed-form p.howto {
+    margin: 3px;
+}
+
+#gist-embed-form #internal-toggle {
+    display: inline-block;
+    cursor: pointer;
+    padding-left: 18px;
+}
+
+#gist-embed-form .toggle-arrow {
+    background: transparent url( '../images/toggle-arrow.png' ) top left no-repeat;
+    height: 23px;
+    line-height: 23px;
+}
+
+#gist-embed-form .toggle-arrow-active {
+    background-position: center left;
+}
+
+#gist-embed-form label input[type="text"] {
+    width: 360px;
+    margin-top: 5px;
+}
+
+#gist-embed-form #link-options label span,
+#gist-embed-form #search-panel label span.search-label {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+#gist-embed-form .link-search-field {
+    float: left;
+    width: 220px;
+}
+
+#gist-embed-form .link-search-wrapper {
+    margin: 5px 6px 9px;
+    display: block;
+    overflow: hidden;
+}
+
+#gist-embed-form .link-search-wrapper span {
+    float: left;
+    margin-top: 4px;
+}
+
+#gist-embed-form .link-search-wrapper .spinner {
+    display: none;
+    vertical-align: text-bottom;
+}
+
+#gist-embed-form .link-target {
+    width: auto;
+    padding: 3px 0 0;
+    margin: 0 0 0 87px;
+    font-size: 11px;
+}
+
+#gist-embed-form .query-results {
+    border: 1px #dfdfdf solid;
+    margin: 0 5px 5px;
+    background: #fff;
+    height: 185px;
+    overflow: auto;
+    position: relative;
+}
+
+#gist-embed-form li,
+#gist-embed-form .query-notice {
+    clear: both;
+    margin-bottom: 0;
+    border-bottom: 1px solid #f1f1f1;
+    color: #333;
+    padding: 4px 6px;
+    cursor: pointer;
+    position: relative;
+}
+
+#gist-embed-form li:hover {
+    background: #eaf2fa;
+    color: #151515;
+}
+
+#gist-embed-form li.unselectable {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#gist-embed-form li.unselectable:hover {
+    background: #fff;
+    cursor: auto;
+    color: #333;
+}
+
+#gist-embed-form li.selected {
+    background: #ddd;
+    color: #333;
+}
+
+#gist-embed-form li.selected .item-title {
+    font-weight: bold;
+}
+
+#gist-embed-form .item-title {
+    display: inline-block;
+    width: 80%;
+}
+
+#gist-embed-form .item-info {
+    text-transform: uppercase;
+    color: #666;
+    font-size: 11px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+    bottom: 0;
+}
+
+#gist-embed-form #search-results {
+    display: none;
+}
+
+#gist-embed-form #search-panel {
+    float: left;
+    width: 100%;
+}
+
+#gist-embed-form .river-waiting {
+    display: none;
+    padding: 10px 0;
+}
+
+#gist-embed-form .river-waiting .spinner {
+    margin: 0 auto;
+    display: block;
+}
+
+#gist-embed-form .submitbox {
+    padding: 5px 10px;
+    font-size: 11px;
+    overflow: auto;
+    height: 29px;
+}
+
+#gist-embed-form-cancel {
+    line-height: 25px;
+    float: left;
+}
+
+#gist-embed-form-update {
+    line-height: 23px;
+    float: right;
+}
