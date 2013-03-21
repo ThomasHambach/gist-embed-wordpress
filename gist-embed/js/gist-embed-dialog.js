@@ -20,7 +20,7 @@
                 return false;
             }
 
-            code = '<code id="gist-' + gist + '"';
+            code = '<code data-gist-id="gist-' + gist + '"';
             if(file.val().length > 0) {
                 code += ' data-file="' + file.val() + '"';
             }
