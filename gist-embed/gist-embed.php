@@ -19,7 +19,7 @@ function gist_embed_init() {
  * wp_footer
  */
 function gist_embed_footer() {
-    echo '<script src="' . plugin_dir_url(__FILE__) . 'js/gist-embed.js"></script>';
+    echo '<script src="' . plugin_dir_url(__FILE__) . 'js/gist-embed/gist-embed.js"></script>';
     if ( ( current_user_can('edit_posts') || current_user_can('edit_pages') ) && get_user_option('rich_editing') ) {
 
     }
