@@ -1,0 +1,3 @@
+[submodule "gist-embed/js/gist-embed"]
+	path = gist-embed/js/gist-embed
+	url = https://github.com/blairvanderhoof/gist-embed.git
