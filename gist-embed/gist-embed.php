@@ -3,7 +3,7 @@
  Plugin Name: Gist Embed
  Plugin URI: https://github.com/ThomasHambach/gist-embed-wordpress
  Description: Embeds GIST into your pages, based on jQuery script by Blair Vanderhoof
- Version: 0.1
+ Version: 0.2
  Author: Thomas Hambach
  */
 

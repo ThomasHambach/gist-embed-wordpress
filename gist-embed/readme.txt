@@ -1,5 +1,5 @@
 === Gist Embed ===
-Contributors: thomashambach
+Contributors: ThomasHambach
 Tags: gist, github, git, embed
 Requires at least: 3.3
 Tested up to: 3.5.1
@@ -7,11 +7,11 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Based on the script written by Blair Vanderhoof, this plugin allows you to input gist files directly into your wordpress posts.
+This plugin allows you to input gist files directly into your Wordpress posts with a click of a button.
 
 == Description ==
 
-Based on the script written by Blair Vanderhoof, this plugin allows you to input gist files directly into your wordpress posts using a jQuery callback.
+Inspired by the script written by Blair Vanderhoof, this plugin allows you to input gist files directly into your Wordpress posts using a jQuery callback.
 
 Currently supports:
 * Showing a whole gist.
@@ -29,6 +29,11 @@ For any issues, please refer to https://github.com/thomashambach/gist-embed-word
 
 == Screenshots ==
 
-1. http://www.rdlt.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-21-at-14.45.18.png
-2. http://www.rdlt.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-21-at-14.45.26.png
-3. http://www.rdlt.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-21-at-14.45.54.png
+1. assets/editor.png
+2. assets/dialog.png
+3. assets/example.png
+
+== Changelog ==
+
+= 0.2 =
+Added options to hide line numbers and GitHub footer.
